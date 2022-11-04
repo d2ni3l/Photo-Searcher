@@ -48,7 +48,7 @@ function App() {
           imagesRef.current = images;
         
         })
-      }, 2000)();
+      }, 1000)();
       
     }else{
       setImages([])
@@ -75,7 +75,7 @@ function App() {
 
  
   return (
-    <div className="App flex flex-col justify-center items-center ">
+    <div className="App flex flex-col justify-center items-center pb-6">
       <h1 className="text-center text-4xl md:text-5xl mx-5 font-bold mt-12 pb-5">Photo Searcher🖼️</h1>
      
      <input className='bg-[#252526] flex justify-center items-center mt-2 rounded-sm py-1 px-4 outline-input' type="text" placeholder='Enter your prompt' value={input} onChange={(e) => setInput(e.target.value)} />
@@ -88,7 +88,7 @@ function App() {
      }) }
     </div>
      <div>
-      {fetching && 'Fetching Image!'}
+      {fetching && 'Getting Image!'}
      </div>
     </div>
   )
