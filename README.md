@@ -4,7 +4,7 @@
 #### Photo Searcher
 # Enter any prompt and an image will be generated
 
-An application used to pick colors, built with Vite, React, JavaScript, and CSS.
+An application that takes an input and generates a photo, built with Vite, React, JavaScript, and CSS.
 
 ## Preview site
 https://ph0tosearcher.netlify.app/
